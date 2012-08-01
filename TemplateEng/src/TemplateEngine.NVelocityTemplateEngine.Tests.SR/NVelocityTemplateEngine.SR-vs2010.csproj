@@ -34,7 +34,6 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
   </PropertyGroup>
-  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'NET40-Debug|AnyCPU' ">
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
@@ -53,7 +52,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'NET40-Release|AnyCPU' ">
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <OutputPath>bin\NET40-Release\</OutputPath>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
@@ -92,7 +92,6 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
-  
   <ItemGroup>
     <Reference Include="System">
       <Name>System</Name>

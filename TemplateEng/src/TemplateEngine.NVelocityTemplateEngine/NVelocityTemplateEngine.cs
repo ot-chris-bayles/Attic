@@ -153,7 +153,7 @@ namespace Castle.Components.Common.TemplateEngine.NVelocityTemplateEngine
 					log.Info("Initializing NVelocityTemplateEngine component using Assemblies:");
 					foreach (string s in assemblies)
 					{
-						log.Info(" - {0}", s);
+						log.Info(string.Format(" - {0}", s));
 					}
 				}
   				

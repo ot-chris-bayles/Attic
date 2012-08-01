@@ -6,6 +6,7 @@ AssemblyInfo.cs
 src/*/obj
 src/*/bin
 *.csproj.user
+*.DotSettings.user
 _ReSharper*
 *ReSharper.*
 *.suo
